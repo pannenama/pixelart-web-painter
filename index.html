@@ -5,14 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0">
     <meta name="description" content="PixelCanvas lets you create pixel art by choosing the canvas size and selecting custom colors or brush sizes.">
     <meta name="keywords" content="pixelart, pixelcanvas, drawing, painting, art">
-    <link rel="icon" type="image/x-icon" href="icon.ico">
+    <link rel="icon" type="image/x-icon" href="pixelcanvas.ico">
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
     <title>PixelCanvas</title>
 </head>
 <body>
+<!-- might need to change some tags and organisation  -->
+<header id="header-section">
+    <img src="#" alt="PixelCanvas Logo">
 
+    <div>
+        <div id="canvas-name">
 
+        </div>
+
+        <div>
+            <div class="canvas-size" id="grid-width">
+
+            </div>
+
+            <div class="canvas-size" id="grid-height">
+
+            </div>
+        </div>
+
+        <button id="save-button"></button>
+    </div>
+
+    <div>
+        <a href="#" id="help-button"></a>
+
+        <a href="#" id="theme-toggle"></a>
+    </div>
+</header>
+
+<main id="canvas-section">
+    <section id="canvas-bg">
+        <canvas id="canvas-grid-container">
+
+        </canvas>
+    </section>
+</main>
+
+<aside id="toolbar-section">
+    <ul>
+        <li class="tool-buttons" id="tool-brush"></li>
+        <li class="tool-buttons" id="tool-eraser"></li>
+        <li class="tool-buttons" id="tool-fill"></li>
+        <li class="tool-buttons" id="tool-picker"></li>
+    </ul>
+
+    <a href="#" id="opacity-button">
+
+    </a>
+
+    <ul>
+        <li class="brush-size" id="brush-size-1"></li>
+        <li class="brush-size" id="brush-size-2"></li>
+        <li class="brush-size" id="brush-size-3"></li>
+        <li class="brush-size" id="brush-size-4"></li>
+    </ul>
+</aside>
+
+<aside id="palette-section">
+    <div id="color-swap-button">
+        <div id="color-background">
+
+        </div>
+
+        <div id="color-foreground">
+
+        </div>
+
+        <a href="" id="arrow-icon"></a>
+    </div>
+
+    <a href="#" id="custom-color">
+
+    </a>
+
+    <ul>
+       <li class="color-button"></li>
+        <!-- ... -->
+    </ul>
+</aside>
 
 </body>
 </html>
